@@ -1,0 +1,36 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "es6": true,
+        "node": true,
+    },
+    "parser": "@babel/eslint-parser",
+    "extends": [
+        "airbnb"
+    ],
+    "rules": {
+        "react/jsx-filename-extension": [
+            1,
+            {
+                "extensions": [
+                    ".js",
+                    ".jsx"
+                ]
+            }
+        ],
+        "indent": "off",
+        "react/jsx-indent": "off",
+        "import/no-extraneous-dependencies": "off",
+        "import/no-dynamic-require": "off",
+        "global-require": "off",
+        "import/no-import-module-exports": [
+            "error",
+            {
+                "exceptions": [
+                    "**/src/index.js"
+                ]
+            }
+        ]
+    }
+}

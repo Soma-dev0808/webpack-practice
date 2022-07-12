@@ -1,0 +1,11 @@
+{
+    "presets": [
+        "@babel/preset-env",
+        "@babel/preset-react"
+    ],
+    "plugins": [
+        "@babel/plugin-syntax-top-level-await",
+        "@babel/plugin-proposal-class-static-block",
+        "@babel/plugin-proposal-async-do-expressions",
+    ]
+}
